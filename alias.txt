@@ -1,0 +1,16 @@
+How to set up Aliases in Terminal:
+
+What is an alias?
+  Aliases are used to shorten commands within the terminal. Complex, long, and/or difficult to remember commands can be given an alias to make calling them easier.
+
+Examples:
+  alias easyname = 'c0mplex -c0mmand123'
+  alias acesswebsite = 'ssh username@website.hosting.net'  
+  alias mv = 'mv -iv'
+
+How to set up:
+  From the command line in terminal you can simply write lines as shown above, however they will only be active in that one shell
+
+  In order to create long-term aliases they should be added to the .zshrc file (assuming zsh usage in terminal). Use an editor to edit this file and add lines like shown above.
+    ex: nano .rshrc
+
