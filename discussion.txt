@@ -1,5 +1,33 @@
 HTML
   HTML is the language from which all websites are created. 
+  HTML is built from tags which label elements and contain the webpage in a tree-like format
+
+  ex of html code:
+  <html>
+    <header>
+      <title>Website Title</title>
+      <style>(some CSS stuff -- see CSS section)</style>
+    </header>
+
+    <body>
+      <h1>A header</h1>
+      <div>Some text within a division</div>
+      <div>
+        <div>Divs can be nested within other divs!</div>
+
+        <ol>
+          <li>Item #1</li>
+          <li>Item #2</li>
+          <li>Item #3</li>
+        </ol>
+
+        <ul>
+          <li>Item</li>
+          <li>Another Item</li>
+          <li>A Different Item</li>
+        </ul>
+      </div>
+    </body>
   
 CSS
 
